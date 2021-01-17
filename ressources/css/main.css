@@ -1,0 +1,68 @@
+* {
+
+}
+
+html {
+	
+}
+
+body {
+	font-family: 'Lato', 'Helvetica', 'sans-serif';
+	background-color: rgb(25, 25, 25);
+	color: rgb(200, 200, 200);
+}
+
+a {
+	color: #868686;
+}
+
+/* Bootstrap Overwrites */
+
+iframe.subSite_content {
+	border: none;
+	width: 82.5%;
+	height: auto;
+	overflow: hidden;
+}
+
+.nav-item .nav-link {
+	position: relative;
+	outline: none;
+}
+
+.nav-item .nav-link span:hover {
+	cursor: pointer;
+}
+
+.nav-item .nav-link svg {
+	width: 16px;
+	height: 16px;
+	color: #606060;
+	position: absolute;
+	top: 35%;
+}
+
+.nav-item .nav-link span {
+	margin-left: 10%;
+	line-height: 15px;
+	color: #848484;
+}
+
+.bg-secondary {
+	background-color: rgb(45, 45, 45) !important;
+}
+
+.bg-dark {
+	background-color: rgb(35, 35, 35) !important;
+}
+
+.sidebar {
+	min-height: 95.75vh;
+}
+
+.logout {
+	position: absolute;
+	top: 0;
+	right: 0;
+	padding: 0 10px;
+}
